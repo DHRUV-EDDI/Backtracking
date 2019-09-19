@@ -8,9 +8,7 @@ long  Min_power(int ri,int ci)
     if(ri < 0 || ci < 0 || ri >= n || ci >= m)
     return INT_MAX;
     if(ri == n-1 and ci == m-1)
-    {
         return 0;
-    }
     if(dp[ri][ci]!=-1)
     return dp[ri][ci];
     long ret=INT_MAX;
